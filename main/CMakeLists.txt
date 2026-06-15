@@ -1,0 +1,12 @@
+idf_component_register(
+    SRCS
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        espressif__mqtt
+        esp_wifi
+        esp_event
+        esp_netif
+        nvs_flash
+        dht
+)
