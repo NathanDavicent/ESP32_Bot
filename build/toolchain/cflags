@@ -1,0 +1,6 @@
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+"-specs=C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/specs/picolibc.specs"
