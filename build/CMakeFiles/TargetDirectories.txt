@@ -1089,6 +1089,13 @@ C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/ulp/CMakeFile
 C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/ulp/CMakeFiles/install.dir
 C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/ulp/CMakeFiles/install/local.dir
 C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/ulp/CMakeFiles/install/strip.dir
+C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/command_server/CMakeFiles/__idf_command_server.dir
+C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/command_server/CMakeFiles/edit_cache.dir
+C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/command_server/CMakeFiles/rebuild_cache.dir
+C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/command_server/CMakeFiles/list_install_components.dir
+C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/command_server/CMakeFiles/install.dir
+C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/command_server/CMakeFiles/install/local.dir
+C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/command_server/CMakeFiles/install/strip.dir
 C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/wifi_manager/CMakeFiles/__idf_wifi_manager.dir
 C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/wifi_manager/CMakeFiles/edit_cache.dir
 C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/wifi_manager/CMakeFiles/rebuild_cache.dir

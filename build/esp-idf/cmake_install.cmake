@@ -719,6 +719,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/command_server/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/wifi_manager/cmake_install.cmake")
 endif()
 

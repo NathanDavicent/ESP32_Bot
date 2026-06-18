@@ -5,6 +5,7 @@
 #include "esp_log.h"
 #include "nvs_flash.h"
 #include "esp_netif.h"
+#include "command_server.h"
 
 static const char *TAG = "wifi_manager";
 
@@ -29,6 +30,10 @@ static void wifi_event_handler(void *arg,
     }
     else if (event_base == IP_EVENT && event_id == IP_EVENT_STA_GOT_IP) {
         ESP_LOGI(TAG, "Got IP");
+
+        // Start command server task
+        xTaskCreate(command_server_task, "cmd_server", 4096, NULL, 5, NULL);
+
         if (s_on_connected) {
             s_on_connected();
         }
@@ -88,3 +93,4 @@ esp_err_t wifi_manager_init(const char *ssid,
     ESP_LOGI(TAG, "WiFi init finished. Connecting to %s...", ssid);
     return ESP_OK;
 }
+

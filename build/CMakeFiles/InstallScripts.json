@@ -157,6 +157,7 @@
 		"C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/rt/cmake_install.cmake",
 		"C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/spiffs/cmake_install.cmake",
 		"C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/ulp/cmake_install.cmake",
+		"C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/command_server/cmake_install.cmake",
 		"C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/wifi_manager/cmake_install.cmake",
 		"C:/Users/natha/OneDrive/Skrivbord/Projects/ESP32_Bot/build/esp-idf/main/cmake_install.cmake"
 	],

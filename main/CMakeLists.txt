@@ -5,6 +5,7 @@ idf_component_register(
         "."
     PRIV_REQUIRES
         wifi_manager
+        command_server
     REQUIRES
         esp_wifi
         esp_event

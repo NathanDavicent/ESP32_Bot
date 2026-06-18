@@ -3,6 +3,7 @@
 #include "freertos/task.h"
 #include "esp_log.h"
 #include "wifi_manager.h"
+#include "command_server.h"
 
 static const char *TAG = "ESP32_BOT";
 
@@ -20,12 +21,14 @@ void app_main(void)
 {
     ESP_LOGI(TAG, "ESP32_BOT starting...");
 
-    const char *ssid = "#####";
-    const char *pass = "#####";
+    const char *ssid = "Nathan5G";
+    const char *pass = "Nathan123@@##";
 
     wifi_manager_init(ssid, pass, on_wifi_connected, on_wifi_disconnected);
 
     while (1) {
         vTaskDelay(pdMS_TO_TICKS(1000));
     }
+
+    command_server_start();
 }
